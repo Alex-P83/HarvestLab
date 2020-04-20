@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <title>HarvestLab 3000</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="green-bar"></div>
+    <div class="yellow-bar"></div>
+    <div class="navbar-inner">
+      <span class="hl_logo">HarvestLab 3000</span>
+      <ul class="nav">
+        <li class="active">
+          <a href="#"><i class="icon-my-reports"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="icon-gear"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="icon-tools"></i></a>
+        </li>
+      </ul>
+      <img src="img/long_BE.png" alt="logo">
+    </div>
+  </div>
+  <!-- Main screen -->
+  <section class="main-screen">
+    <!-- Reports head -->
+    <div class="reports-head">
+      <div class="title">
+        <h3>Analysis & Reports</h3>
+      </div>
+      <div class="startAnalysisWrapper">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" fill="#fff" x="0px" y="0px" width="20px" height="22px" viewBox="0 0 22 25" enable-background="new 0 0 22 25" xml:space="preserve">
+          <g xmlns="http://www.w3.org/2000/svg" id="Chemical">
+          <path d="M21.486,19.904L14.644,8.656V4.135c0.634-0.002,1.146-0.516,1.146-1.149s-0.513-1.146-1.146-1.149l0,0h-0.003H7.288v0.001   c-0.003,0-0.007-0.001-0.01-0.001c-0.635,0-1.149,0.515-1.149,1.15s0.515,1.149,1.149,1.149c0.003,0,0.007-0.001,0.01-0.001v4.521   L0.509,19.904c-0.275,0.453-0.437,0.877-0.482,1.27c-0.043,0.391,0.017,0.732,0.182,1.028c0.166,0.293,0.426,0.528,0.781,0.701   c0.356,0.173,0.797,0.261,1.322,0.261h17.344c0.536,0,0.982-0.088,1.342-0.261c0.361-0.173,0.624-0.408,0.789-0.701   c0.166-0.296,0.228-0.638,0.188-1.028C21.934,20.781,21.771,20.357,21.486,19.904z M2.31,21.036c0,0,6.655-11.022,7.105-11.769   v-5.13h3.103V9.27l7.17,11.767H2.31z"></path>
+          <g>
+          <path d="M4.727,19.646l1.995-3.307c0.222,0.025,0.435,0.041,0.639,0.047c0.341,0.01,0.552,0.014,0.703,0.014    c0.94,0,1.846-0.293,2.694-0.867c0.389-0.266,0.775-0.509,1.185-0.745c0.305-0.179,0.668-0.329,1.08-0.449    c0.011-0.003,0.094-0.022,0.234-0.022c0.173,0,0.379,0.027,0.611,0.077c0.101,0.032,0.174,0.067,0.195,0.08    c0.023,0.015,0.043,0.028,0.062,0.04c0.021,0.037,0.055,0.095,0.108,0.189l3.013,4.941H4.727V19.646z"></path>
+          </g>
+          </g>
+        </svg>
+        <select name="" id="" class="selectpicker">
+          <option value="" disabled>Please select profile...</option>
+          <option value="">Test 1</option>
+          <option value="">Test 2</option>
+          <option value="">Test 3</option>          
+        </select>
+        <a href="#" class="btn btnPrimary" data-toggle="modal" data-target="#exampleModal">Start New Analysis</a>
+      </div>
+      <div class="operators_menu">
+        <i class="icon-my-org"></i>
+        <select name="" id="" class="selectpicker">
+          <option value="" disabled>Please select operator...</option>
+          <option value="">Default wrwrrwq</option>
+          <option value="">testuser testname</option>        
+        </select>
+      </div>
+    </div>
+    <!-- Panel -->
+    <div class="panel__wrapper">
+      <!-- Left panel  -->
+      <div class="leftPanel">
+        <div class="filterResult">
+          <div class="leftPanel-title">
+            <i class="icon-filter"></i><h3>Filter Reports</h3>
+          </div>
+          <div class="analysisLeftBar">
+            <div class="inner-title">
+              <h3>Date Range:</h3>
+            </div>
+            <div class="date-wrapper">
+              <div class="custom-control custom-switch">
+                <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                <label class="custom-control-label" for="customSwitch1"></label>
+              </div>
+              <div class="date-selection">
+                <input type="text" data-provide="datepicker">
+                <span>to</span>
+                <input type="text" data-provide="datepicker">             
+              </div>            
+            </div>
+          </div>
+          <div class="analysisLeftBar">
+            <div class="inner-title">
+              <h3>Material Type:</h3>
+            </div>
+            <select name="" id=""  class="selectpicker">
+              <option value="">All</option>      
+            </select>          
+          </div>
+          <div class="analysisLeftBar">
+            <div class="inner-title">
+              <h3>Operator:</h3>
+            </div>
+            <select name="" id="" class="selectpicker">
+              <option value="">All</option>     
+            </select>          
+          </div>
+          <div class="analysisLeftBar">
+            <div class="inner-title">
+              <h3>Customer:</h3>
+            </div>
+            <select name="" id="" class="selectpicker">
+              <option value="">All</option>     
+            </select>          
+          </div>
+          <div class="analysisLeftBar">
+            <div class="inner-title">
+              <h3>Source:</h3>
+            </div>
+            <select name="" id="" class="selectpicker">
+              <option value="">All</option>     
+            </select>          
+          </div>
+          <div class="wrapBtn">
+            <a href="#" class="btn">Reset Filters</a>
+            <a href="#" id="showMoreFilter" class="btn" data-toggle="popover" data-placement="right" data-original-title="" title="" aria-describedby="">...</a>
+          </div>           
+        </div>       
+      </div>
+      <!-- Right panel -->
+      <div class="rightPanel">
+        <div class="rightPanel-header">
+          <h2>Measuring Reports</h2>
+        </div>
+      </div>      
+    </div>
+  </section>
+  <!-- Footer  -->
+  <footer>
+    <span class="copy">Copyright © 2017 - 2019 Deere &amp; Company. All rights reserved. <a href="#" target="_blank">License agreement</a>.</span>
+    <div class="version-wrapper">
+      <div class="version">
+        <span class="versin__software">SW</span>
+        <span class="version__number">14001</span>
+        - 
+        <span class="version__serial-number">SN</span> 
+        <span>0</span>
+      </div>
+      <img src="img/job-completed.png">      
+    </div>
+  </footer>  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-title">
+            <span><strong>NEW ANALYSIS</strong>:</span>
+            <span>Test33</span>
+          </div>
+        </div>
+        <div class="modal-body">
+          <div class="title">Pleace place the sample material to be analyzed into the bowl.</div>
+          <img src="img/materialBowl_01.png" alt="icon">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btnSecondary cancel" data-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btnPrimary continue" data-dismiss="modal">Continue</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="showMoreFilterContent" class="filterPopover">
+    <a href="#" class="btn btnInverse disabled"><i class="icon-share-2"></i> <span>Export filtered Reports as CSV</span></a>
+    <a href="#" class="btn btnInverse disabled"><i class="icon-share-2"></i> <span>Export filtered Reports as PDF</span></a>
+    <a href="#" id="deleteFilteredResults" class="btn btnStop"><i class="icon-delete"></i> <span>Delete filtered Reports</span></a>
+  </div>  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
